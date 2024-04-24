@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "chiilog-block/new-icon",
+	"version": "0.1.0",
+	"title": "New Icon Block",
+	"category": "text",
+	"icon": "smiley",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "new-icon",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
