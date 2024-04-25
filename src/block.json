@@ -8,8 +8,33 @@
 	"icon": "smiley",
 	"example": {},
 	"supports": {
-		"html": false
+		"html": false,
+		"align": true,
+		"color": {
+			"gradients": true,
+			"background": true,
+			"text": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		}
 	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "NEW"
+		},
+		"period": {
+			"type": "string",
+			"default": "7"
+		}
+	},
+	"usesContext": [ "postId" ],
 	"textdomain": "new-icon",
 	"editorScript": "file:./index.js",
 	"render": "file:./render.php"
